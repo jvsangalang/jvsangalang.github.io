@@ -24,6 +24,7 @@ nav {
 nav a {
     text-decoration: none;
     margin: 0 0 0 2rem;
+    font-size: 3 rem;
 }
 
 section {
@@ -47,6 +48,14 @@ h3 {
 a:visited,
 .selected {
     color: #a9bd6f;
+}
+
+a img:hover {
+    border: 5px solid #a9bd6f;
+
+}
+img {
+    border: 5px solid #fcf2ee;
 }
 
 header {
@@ -90,6 +99,7 @@ footer {
     justify-content: space-around;
     max-width: 58.5rem;
 }
+
 #accordionimage {
     grid-column: 2/11;
 }
@@ -99,7 +109,7 @@ footer {
 }
 
 #iconimage {
-    grid-column: 2/11;
+    grid-column: 3/11;
 }
 
 #heading2 {
@@ -107,18 +117,27 @@ footer {
 }
 
 #logoimage {
-    grid-column: 1/5;
+    grid-column: 1/4;
 }
 
 #heading3 {
-    grid-column:1/5;
+    grid-column:2/4;
 }
+
 #zineimage {
     grid-column: 7/11;
 }
 
 #heading4 {
     grid-column: 7/11;
+}
+
+#productimage {
+    grid-column: 2/9;
+}
+
+#heading5 {
+    grid-column: 2/9;
 }
 
 #logoimg1 {
@@ -148,6 +167,7 @@ footer {
 #accordiontext {
     grid-column: 7/11;
 }
+
 #accordioninside {
     grid-column: 2/11;
     align-items: center;
@@ -161,9 +181,11 @@ footer {
     grid-column: 5/11;
     text-align: left;
 }
+
 #zineimg2 {
     grid-column: 2/11;
 }
+
 #zineimg3 {
     grid-column: 2/11;
 }
@@ -187,6 +209,7 @@ footer {
 #aboutimg {
     grid-column: 2/6;
 }
+
 #abouttext {
     grid-column: 6/11;
 }
