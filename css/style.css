@@ -44,16 +44,18 @@ h3 {
     font-size: 1rem;
 }
 
-
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color:#a9bd6f;
+}
 a:visited,
 .selected {
     color: #a9bd6f;
 }
 
-a img:hover {
-    border: 5px solid #a9bd6f;
-
-}
 img {
     border: 5px solid #fcf2ee;
 }
@@ -91,6 +93,10 @@ main {
     padding-right: 5rem;
 }
 
+.index img:hover{
+    border: 5px solid #a9bd6f;
+}
+
 footer {
     width: 57rem;
     margin: auto;
@@ -98,6 +104,14 @@ footer {
     align-items: left;
     justify-content: space-around;
     max-width: 58.5rem;
+}
+
+#contact {
+    max-width: 58.5rem;
+}
+
+#contactimg {
+    image-orientation: 90deg;
 }
 
 #accordionimage {
@@ -191,19 +205,19 @@ footer {
 }
 
 #imgproduct {
-    grid-column: 2/7;
+    grid-column: 2/6;
 }
 
 #producttext {
-    grid-column: 7/11;
+    grid-column: 6/9;
 }
 
 #imgproduct2 {
-    grid-column: 6/11;
+    grid-column: 6/9;
 }
 
 #producttext2 {
-    grid-column: 2/4;
+    grid-column: 1/6;
 }
 
 #aboutimg {
